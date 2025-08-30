@@ -1,0 +1,29 @@
+{
+  "input_folder": "input_videos",
+  "output_folder": "output_videos", 
+  "background_video_name": "random",
+  "topic": null,
+  "subtitle_style": "ultra_vibrant",
+  "voice": "en-US-GuyNeural",
+  "_comment": "Just put your videos in the input_videos folder and run!",
+  "_instructions": {
+    "input_folder": "Folder containing your background videos",
+    "output_folder": "Folder where final videos will be saved", 
+    "background_video_name": "Name of video file to use (or 'random' to pick randomly)",
+    "topic": "Specific topic or null for random (e.g. 'Space and Astronomy')",
+    "subtitle_style": "Choose: ultra_vibrant, neon_pop, or fire_text",
+    "voice": "TTS voice - see available voices in edge-tts documentation"
+  },
+  "_available_voices": [
+    "en-US-AriaNeural",
+    "en-US-GuyNeural", 
+    "en-US-JennyNeural",
+    "en-GB-SoniaNeural",
+    "en-AU-NatashaNeural"
+  ],
+  "_subtitle_styles": [
+    "ultra_vibrant - Yellow text with black outline",
+    "neon_pop - Cyan text with magenta outline", 
+    "fire_text - Orange text with white outline"
+  ]
+}

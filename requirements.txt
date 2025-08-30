@@ -1,0 +1,7 @@
+# YouTube Shorts Pipeline Requirements
+openai>=1.0.0
+edge-tts>=6.1.0
+moviepy>=1.0.3
+openai-whisper>=20231117
+python-dotenv>=1.0.0
+asyncio
